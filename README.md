@@ -101,10 +101,11 @@ A local-first desktop application designed to turn dense technical documents, te
 
 - Multiformat document ingestion (PDF, EPUB, TXT, DOCX) and structured chapter hierarchy extraction.
 - Local neural pipeline: PyTorch FP16 CUDA sidecar running BGE-M3 (1024d dense embeddings), BGE Reranker v2-m3, Kokoro-82M TTS, and PaddleOCR with CPU fallbacks.
-- Hardware-adaptive resource management: ~6.3 GB RAM / ~4.3 GB VRAM peak footprints under full batch inference.
-- Desktop packaging via Tauri v2.0 (Rust) + Node.js 22 LTS orchestrator + 1.95 GB Windows desktop release installer with 13/13 passing automated validation tests.
+- Explicit model lifecycle manager (`sidecars/python/lifecycle.py`) with lazy loading, in-flight request protection, configurable TTL idle eviction, and dynamic warming. Node.js orchestrator remains the sole SQLite writer.
+- Repository-reported benchmarks: 296 MB peak Node.js RSS during ingestion, 174 MiB idle GPU allocation after eviction (~3.2 GB VRAM reclaimed), 16-chunk embedding batch reduced from ~124s to <1s, alongside historical stress benchmarks of ~6.3 GB RAM / ~4.3 GB VRAM.
+- Desktop packaging via Tauri v2.0 (Rust) + Node.js 22 LTS orchestrator + 1.95 GB Windows desktop release installer with 61 unit/regression suites (including 13/13 passing lifecycle tests), 17 Rust supervisor tests, 10/10 corpus gate fixtures, and 90 procedural sound stems.
 
-**Architecture**: `Tauri v2.0 (Rust)` → `Node.js 22 LTS orchestrator` → `SQLite WAL` → `FastAPI neural sidecar (CUDA FP16)`
+**Architecture**: `Tauri v2.0 (Rust)` → `Node.js 22 LTS orchestrator (Sole SQLite Writer)` → `SQLite WAL` → `FastAPI neural sidecar (CUDA FP16)`
 
 ---
 
@@ -113,15 +114,15 @@ A local-first desktop application designed to turn dense technical documents, te
 **Full-stack sales & pipeline management platform**
 
 [![Live App](https://img.shields.io/badge/LIVE_APPLICATION-Visit-16A34A?style=flat-square&logo=vercel&logoColor=white)](https://cape-neto-crm.vercel.app/)
-[![Source](https://img.shields.io/badge/SOURCE_CODE-GitHub-181717?style=flat-square&logo=github)](https://github.com/avengersvstheflash/cape-neto-crm)
+[![Source](https://img.shields.io/badge/SOURCE_CODE-GitHub-181717?style=flat-square&logo=github)](https://github.com/ayumu-ml/cape-neto-crm)
 [![API Docs](https://img.shields.io/badge/API_DOCS-Open-2563EB?style=flat-square&logo=fastapi&logoColor=white)](https://cape-neto-crm-backend.onrender.com/docs)
 
 A production CRM covering leads, clients, deals, tasks, sales activities, and real-time pipeline analytics.
 
 - React 18 frontend deployed on Vercel with responsive deal pipeline stages and activity logs.
-- FastAPI REST backend deployed on Render with JWT authentication and role-based access control.
+- FastAPI REST backend deployed on Render with JWT authentication and 3-tier role-based access control (Admin, Sales representative, Viewer).
 - Dual database portability: SQLite deployed on Render and local development (`render_as_batch=True` with 3 versioned migrations) with SQLAlchemy 2.0 dialect adaptation for PostgreSQL.
-- Comprehensive endpoint test suite (14/14 passing tests) verifying schema constraints and auth boundaries.
+- Comprehensive endpoint test suite (14 documented passing pytest regression tests) verifying schema constraints and auth boundaries.
 
 **Architecture**: `React 18 / Vite` → `FastAPI REST` → `SQLAlchemy 2.0` → `SQLite (Render Deployed / Local) with PostgreSQL dialect compatibility`
 
@@ -132,15 +133,15 @@ A production CRM covering leads, clients, deals, tasks, sales activities, and re
 **Collaborative curriculum intelligence & RAG platform**
 
 [![Case Study](https://img.shields.io/badge/CASE_STUDY-Open-2563EB?style=flat-square&logo=vercel&logoColor=white)](https://planright-case-study.vercel.app/)
-![Role](https://img.shields.io/badge/ROLE-Lead_Developer-7C3AED?style=flat-square)
+![Role](https://img.shields.io/badge/ROLE-Infrastructure_&_Security_Engineer-7C3AED?style=flat-square)
 ![Status](https://img.shields.io/badge/STATUS-COLLABORATIVE_PRODUCTION-16A34A?style=flat-square)
 
-A specialized curriculum intelligence platform designed for South African CAPS educational standards, enabling teachers and administrators to query lesson frameworks and syllabus constraints with verified citations.
+A specialized curriculum intelligence platform designed for South African CAPS educational standards, enabling teachers and administrators to query lesson frameworks and syllabus constraints with verified citations (inspection grounded in Career Evidence Map).
 
 - Dual-level chunking architecture combining CAPS curriculum metadata with dense semantic embeddings via Supabase pgvector.
 - High-efficiency Edge Functions for low-latency retrieval and context assembly.
-- Rigorous security boundaries: strict tenant isolation, Row-Level Security (RLS) policies, and defense against prompt injection.
-- Production repository with a 257-commit git history reflecting sustained engineering and iterative refinement.
+- Rigorous security boundaries: cryptographic JWT verification via `supabaseClient.auth.getUser`, 59 rewritten/remediated RLS policies addressing 73 database warnings.
+- Collaborative professional repository with a 257-commit git history scrubbed via git-filter-repo for committed secret cleanup (not sole platform ownership).
 
 **Architecture**: `React / TypeScript` → `Supabase Edge Functions` → `PostgreSQL + pgvector` → `Curriculum RAG`
 
@@ -150,15 +151,15 @@ A specialized curriculum intelligence platform designed for South African CAPS e
 
 **Privacy-conscious browser AI assistant**
 
-[![Repository](https://img.shields.io/badge/REPOSITORY-ChromeMind-181717?style=flat-square&logo=github)](https://github.com/avengersvstheflash/ChromeMind)
+[![Repository](https://img.shields.io/badge/REPOSITORY-ChromeMind-181717?style=flat-square&logo=github)](https://github.com/ayumu-ml/ChromeMind)
 ![Status](https://img.shields.io/badge/STATUS-ARCHIVED_REFERENCE_BUILD_v1.2.0-64748B?style=flat-square)
 ![Manifest V3](https://img.shields.io/badge/CHROME_EXTENSION-MV3-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
 
 An archived reference build of a Chrome Manifest V3 extension exploring on-device AI integration and privacy boundaries.
 
 - Manifest V3 compliant service-worker architecture and side-panel interface.
-- Local-first inference integration with Chrome's built-in Prompt API (Gemini Nano) with fallback to remote providers.
-- Strict client-side data boundaries preventing page content leakage without explicit user action.
+- Three explicit privacy modes: Chrome on-device only (cloud never contacted), Chrome on-device first with configurable cloud fallback (Gemini/OpenRouter/HuggingFace with user keys), or Cloud only.
+- Strict client-side data boundaries preventing page content leakage without explicit user action, verified by 28 documented unit tests.
 
 ---
 
