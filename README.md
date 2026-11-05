@@ -131,6 +131,7 @@ A production CRM covering leads, clients, deals, tasks, sales activities, and re
 
 **Collaborative curriculum intelligence & RAG platform**
 
+[![Case Study](https://img.shields.io/badge/CASE_STUDY-Open-2563EB?style=flat-square&logo=vercel&logoColor=white)](https://planright-case-study.vercel.app/)
 ![Role](https://img.shields.io/badge/ROLE-Lead_Developer-7C3AED?style=flat-square)
 ![Status](https://img.shields.io/badge/STATUS-COLLABORATIVE_PRODUCTION-16A34A?style=flat-square)
 
