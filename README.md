@@ -4,7 +4,7 @@
 -->
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/avengersvstheflash/avengersvstheflash/main/profile_banner.png" alt="AI processing pipeline in ice blue and silver" width="100%">
+  <img src="https://raw.githubusercontent.com/ayumu-ml/ayumu-ml/main/profile_banner.png" alt="AI processing pipeline in ice blue and silver" width="100%">
 </div>
 
 ---
@@ -13,30 +13,32 @@
 
 # AYUSH SHARMA
 
-### AI APPLICATIONS · BACKEND SYSTEMS · FULL-STACK ENGINEERING
+### AI APPLICATION ENGINEER · FULL-STACK AI ENGINEER
 
-*Building useful software. Investigating hard problems. Making systems dependable.*
+*Building useful software. Investigating complex system behavior. Making systems dependable.*
 
-[![GitHub](https://img.shields.io/badge/GitHub-avengersvstheflash-181717?style=for-the-badge&logo=github)](https://github.com/avengersvstheflash)
-[![Projects](https://img.shields.io/badge/PROJECTS-EXPLORE-2563EB?style=for-the-badge&logo=stackblitz&logoColor=white)](https://github.com/avengersvstheflash?tab=repositories)
+[![GitHub](https://img.shields.io/badge/GitHub-ayumu--ml-181717?style=for-the-badge&logo=github)](https://github.com/ayumu-ml)
+[![Projects](https://img.shields.io/badge/PROJECTS-EXPLORE-2563EB?style=for-the-badge&logo=stackblitz&logoColor=white)](https://github.com/ayumu-ml?tab=repositories)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayush-sharma-swe/)
+[![Email](https://img.shields.io/badge/Email-ayush.sharma.swe%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ayush.sharma.swe@gmail.com)
 
 </div>
 
 ```text
 ayush@engineering:~$ whoami
 
-AI application & full-stack engineer
-Focused on backend architecture, intelligent workflows,
-document processing, and reliable software delivery.
+AI Application Engineer | Full-Stack AI Engineer
+I build and ship software systems that solve practical problems,
+with a focus on AI applications, backend architecture, retrieval systems,
+and security-aware engineering.
 
 ayush@engineering:~$ current_focus
-> Omnitome
-> AI-powered document intelligence
-> Resource-aware processing & lifecycle reliability
+> Omnitome (v1.1.0)
+> Local-first desktop AI document intelligence & neural sidecar
+> Collaborative platform engineering & full-stack deployments
 
-ayush@engineering:~$ status
-> Building | Testing | Learning | Shipping
+ayush@engineering:~$ availability
+> Remote International | ~30 hrs/week | Part-time / Contract preferred
 ```
 
 ---
@@ -48,16 +50,18 @@ ayush@engineering:~$ status
 **LANGUAGES**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 
-**BACKEND & DATA**
+**BACKEND & APIS**
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js_22_LTS-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=black)
 
 **FRONTEND & DELIVERY**
@@ -65,14 +69,19 @@ ayush@engineering:~$ status
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Tauri](https://img.shields.io/badge/Tauri_v2.0-24C8DB?style=flat-square&logo=tauri&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 **AI & INFORMATION RETRIEVAL**
 
-![Semantic Search](https://img.shields.io/badge/Semantic_Search-7C3AED?style=flat-square)
-![RAG](https://img.shields.io/badge/RAG-6D28D9?style=flat-square)
-![Document Processing](https://img.shields.io/badge/Document_Processing-475569?style=flat-square)
+![PyTorch](https://img.shields.io/badge/PyTorch_CUDA_FP16-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![BGE-M3](https://img.shields.io/badge/BGE--M3_1024d-7C3AED?style=flat-square)
+![BGE Reranker](https://img.shields.io/badge/BGE_Reranker_v2--m3-6D28D9?style=flat-square)
+![Kokoro TTS](https://img.shields.io/badge/Kokoro--82M_TTS-EC4899?style=flat-square)
+![PaddleOCR](https://img.shields.io/badge/PaddleOCR-14B8A6?style=flat-square)
+![RAG](https://img.shields.io/badge/RAG_&_Retrieval-475569?style=flat-square)
 
 </div>
 
@@ -80,61 +89,100 @@ ayush@engineering:~$ status
 
 ## `02` / SELECTED SYSTEMS
 
-### ◈ Omnitome
+### ◈ Omnitome (Flagship System)
 
-**Local-first AI reading & document intelligence**
+**Local-first desktop AI document intelligence & reading platform**
 
-[![Repository](https://img.shields.io/badge/REPOSITORY-Smart--Reader-181717?style=flat-square&logo=github)](https://github.com/avengersvstheflash/Smart-Reader)
-![Status](https://img.shields.io/badge/STATUS-IN_DEVELOPMENT-D97706?style=flat-square)
+[![Repository](https://img.shields.io/badge/REPOSITORY-Omnitome-181717?style=flat-square&logo=github)](https://github.com/ayumu-ml/Omnitome)
+[![Release](https://img.shields.io/badge/RELEASE-v1.1.0-2563EB?style=flat-square)](https://github.com/ayumu-ml/Omnitome/releases/tag/v1.1.0)
+![Status](https://img.shields.io/badge/STATUS-SHIPPED_&_MAINTAINED-16A34A?style=flat-square)
 
-A local-first AI reading platform designed to transform large documents into focused reading experiences while preserving access to their original sources.
+A local-first desktop application designed to turn dense technical documents, textbooks, and research papers into structured, interactive knowledge workspaces while keeping private files completely on-device.
 
-- Multiformat document ingestion and structured chapter extraction.
-- Embeddings, reranking, retrieval, and AI-powered synthesis.
-- Resource-aware processing and model lifecycle coordination.
-- Persistent processing state, recovery workflows, and regression testing.
+- Multiformat document ingestion (PDF, EPUB, TXT, DOCX) and structured chapter hierarchy extraction.
+- Local neural pipeline: PyTorch FP16 CUDA sidecar running BGE-M3 (1024d dense embeddings), BGE Reranker v2-m3, Kokoro-82M TTS, and PaddleOCR with CPU fallbacks.
+- Hardware-adaptive resource management: ~6.3 GB RAM / ~4.3 GB VRAM peak footprints under full batch inference.
+- Desktop packaging via Tauri v2.0 (Rust) + Node.js 22 LTS orchestrator + 1.95 GB Windows desktop release installer with 13/13 passing automated validation tests.
 
-**Core architecture**
+**Architecture**: `Tauri v2.0 (Rust)` → `Node.js 22 LTS orchestrator` → `SQLite WAL` → `FastAPI neural sidecar (CUDA FP16)`
 
-`React + Vite` → `Node.js API` → `SQLite` → `Python FastAPI sidecar`
-
-*Current focus: expanded document-corpus validation, reliability testing, and v1.0 release readiness.*
+---
 
 ### ◈ Cape Neto CRM
 
-**Full-stack sales & pipeline management**
+**Full-stack sales & pipeline management platform**
 
 [![Live App](https://img.shields.io/badge/LIVE_APPLICATION-Visit-16A34A?style=flat-square&logo=vercel&logoColor=white)](https://cape-neto-crm.vercel.app/)
 [![Source](https://img.shields.io/badge/SOURCE_CODE-GitHub-181717?style=flat-square&logo=github)](https://github.com/avengersvstheflash/cape-neto-crm)
 [![API Docs](https://img.shields.io/badge/API_DOCS-Open-2563EB?style=flat-square&logo=fastapi&logoColor=white)](https://cape-neto-crm-backend.onrender.com/docs)
 
-A deployed CRM covering leads, clients, deals, tasks, sales activity, and pipeline analytics.
+A production CRM covering leads, clients, deals, tasks, sales activities, and real-time pipeline analytics.
 
-- React frontend and FastAPI backend.
-- Database persistence and authenticated APIs.
-- JWT authentication and role-based access control.
-- Independently deployed frontend and backend.
+- React 18 frontend deployed on Vercel with responsive deal pipeline stages and activity logs.
+- FastAPI REST backend deployed on Render with JWT authentication and role-based access control.
+- Dual database portability: SQLite deployed on Render and local development (`render_as_batch=True` with 3 versioned migrations) with SQLAlchemy 2.0 dialect adaptation for PostgreSQL.
+- Comprehensive endpoint test suite (14/14 passing tests) verifying schema constraints and auth boundaries.
 
-**Core architecture**
-
-`React / Vite` → `FastAPI` → `SQLAlchemy` → `Database`
-
-### ◈ ChromeMind
-
-**Privacy-conscious browser AI**
-
-[![Repository](https://img.shields.io/badge/REPOSITORY-ChromeMind-181717?style=flat-square&logo=github)](https://github.com/avengersvstheflash/ChromeMind)
-![Manifest V3](https://img.shields.io/badge/CHROME_EXTENSION-MV3-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
-
-A Chrome extension exploring useful AI assistance without treating user privacy as an afterthought.
-
-- Manifest V3 browser-extension architecture.
-- On-device inference where supported, with controlled cloud-provider integration.
-- Privacy modes and safeguards for webpage content and user interactions.
+**Architecture**: `React 18 / Vite` → `FastAPI REST` → `SQLAlchemy 2.0` → `SQLite (Render Deployed / Local) with PostgreSQL dialect compatibility`
 
 ---
 
-## `03` / ENGINEERING PRINCIPLES
+### ◈ PlanRight
+
+**Collaborative curriculum intelligence & RAG platform**
+
+![Role](https://img.shields.io/badge/ROLE-Lead_Developer-7C3AED?style=flat-square)
+![Status](https://img.shields.io/badge/STATUS-COLLABORATIVE_PRODUCTION-16A34A?style=flat-square)
+
+A specialized curriculum intelligence platform designed for South African CAPS educational standards, enabling teachers and administrators to query lesson frameworks and syllabus constraints with verified citations.
+
+- Dual-level chunking architecture combining CAPS curriculum metadata with dense semantic embeddings via Supabase pgvector.
+- High-efficiency Edge Functions for low-latency retrieval and context assembly.
+- Rigorous security boundaries: strict tenant isolation, Row-Level Security (RLS) policies, and defense against prompt injection.
+- Production repository with a 257-commit git history reflecting sustained engineering and iterative refinement.
+
+**Architecture**: `React / TypeScript` → `Supabase Edge Functions` → `PostgreSQL + pgvector` → `Curriculum RAG`
+
+---
+
+### ◈ ChromeMind
+
+**Privacy-conscious browser AI assistant**
+
+[![Repository](https://img.shields.io/badge/REPOSITORY-ChromeMind-181717?style=flat-square&logo=github)](https://github.com/avengersvstheflash/ChromeMind)
+![Status](https://img.shields.io/badge/STATUS-ARCHIVED_REFERENCE_BUILD_v1.2.0-64748B?style=flat-square)
+![Manifest V3](https://img.shields.io/badge/CHROME_EXTENSION-MV3-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
+
+An archived reference build of a Chrome Manifest V3 extension exploring on-device AI integration and privacy boundaries.
+
+- Manifest V3 compliant service-worker architecture and side-panel interface.
+- Local-first inference integration with Chrome's built-in Prompt API (Gemini Nano) with fallback to remote providers.
+- Strict client-side data boundaries preventing page content leakage without explicit user action.
+
+---
+
+## `03` / PROFESSIONAL EXPERIENCE
+
+### ◈ Cape Neto Solutions
+**Software & AI Projects Intern** · *Feb 2026 – Apr 2026* (Remote)
+- Built the foundational full-stack prototype of the internal sales CRM (React frontend, FastAPI backend, SQLite persistence).
+- Investigated automated lead scoring algorithms and AI-assisted qualification workflows.
+- Implemented core JWT authentication and secure database modeling practices.
+- *Note: Subsequent production CRM features, hosted deployments, and client engagements represent distinct operational work.*
+
+---
+
+## `04` / ACADEMIC CREDENTIALS
+
+- 🎓 **BSc in Computer Science** — University of the People
+  - **Status**: 120/120 credits completed | GPA: 3.76/4.00 | *Degree conferral pending university processing*
+  - **Capstone/Final Course**: CS 4407 — Data Mining and Machine Learning (**Grade: 100/100**, LMS calculated 99.7%)
+- 🛡️ **Undergraduate Certificate in Network and Application Security** — Awarded April 2024
+  - Focused on secure software lifecycle, defensive architecture, access control, and network security protocols.
+
+---
+
+## `05` / ENGINEERING PRINCIPLES
 
 ```python
 engineering_principles = {
@@ -146,28 +194,21 @@ engineering_principles = {
 }
 ```
 
-I use AI-assisted development as an engineering tool, not a substitute for engineering judgment. I define problems, reason through architectural decisions, direct implementation, and review the resulting behavior.
+> **AI-Assisted Engineering Philosophy**:  
+> I use AI-assisted development as an engineering tool, not a substitute for engineering judgment. I define problems, reason through architectural trade-offs, direct implementation, and rigorously review, test, and validate the resulting systems.
 
 ---
 
-## `04` / CURRENT TRAJECTORY
+## `06` / AVAILABILITY & CONNECT
 
-- 🎓 Completing a **BSc in Computer Science** at the University of the People, with graduation expected in November 2026.
-- 🧪 Developing practical machine-learning skills through coursework and hands-on exercises.
-- 🧩 Deepening my understanding of backend systems, AI application architecture, testing, and performance.
-- 🤖 Long-term interests: AI/ML systems and robotics.
-
----
-
-## `05` / CONNECT
-
-I'm interested in teams building real products, solving meaningful technical problems, and giving engineers ownership of outcomes.
+I am currently open to **remote international opportunities**, with a strong preference for **part-time or contract engagements (~30 hours/week)**.
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-FOLLOW-181717?style=for-the-badge&logo=github)](https://github.com/avengersvstheflash)
+[![GitHub](https://img.shields.io/badge/GitHub-ayumu--ml-181717?style=for-the-badge&logo=github)](https://github.com/ayumu-ml)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayush-sharma-swe/)
+[![Email](https://img.shields.io/badge/Email-ayush.sharma.swe%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ayush.sharma.swe@gmail.com)
 
-**Explore the repositories. Inspect the implementation. Follow the build.**
+**Explore the repositories. Inspect the implementation. Verify the tests.**
 
 </div>
